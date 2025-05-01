@@ -7,4 +7,4 @@ admin.site.register(Categoria)
 @admin.register(Producto)
 class ProductoAdmin(admin.ModelAdmin):
     list_display = ('nombre','precio','categoria','fecha_registro')
-    list_editable = ('precio')
+    list_editable = ('precio',)
